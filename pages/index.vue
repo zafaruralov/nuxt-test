@@ -123,6 +123,9 @@ import { useCategoriesApi } from '~/composables/useCategoriesApi'
 
 const { showToast } = useToast()
 const email = ref('')
+definePageMeta({
+  layout: 'market'
+})
 
 // SEO
 useHead({
